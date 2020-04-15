@@ -2,12 +2,6 @@ clc
 clear
 close all
 
-%% base prod
-% base.time = 1;
-% base.prod = 2.85;
-% base.name = 'Brauerei';
-% base.number_buildings = 14;
-
 %%
 buildings = readtable('data/buildings.txt');
 product_chains = readtable('data/product_chains.txt');
@@ -21,9 +15,8 @@ endnumber = 5;
 
 chain = get_chain(endproduct, product_chains);
 
-prod.('kaffee') = 1.75;
-prod.('naehmaschinen') = 2.5;
-prod.('stahl') = 2.5;
+% Example of adding additional productivity
+% prod.('kaffee') = 1.75;
 
 productivity = ones(length(chain),1);
 for i = 1 : length(chain)
@@ -45,6 +38,7 @@ number_buildings = buildings.time ./ weights / faktor;
 
 Name = buildings.product;
 Productivity = weights * 100;
+disp('Productivity displayed in %')
 table(Name, Productivity, number_buildings)
 end
 
