@@ -1,0 +1,4 @@
+name,productivity
+bier,1
+getreide,1
+hopfen,1
