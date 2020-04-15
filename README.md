@@ -14,8 +14,8 @@ Important: you have to enter the productivities in `times base value` rather tha
 The result will be given in `percentage`.
 
 ## Todo
-- only german names for products available
-- not all items are listed. 
-- Arctic products are missing completely 
-- new world is mainly added for produciton for old world
-- Ships building is missing completly
+- [ ] only german names for products available
+- [ ] not all items are listed. 
+- [ ] Arctic products are missing completely 
+- [ ] new world is mainly added for produciton for old world
+- [ ] Ships building is missing completly
