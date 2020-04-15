@@ -10,6 +10,12 @@ Additional way of adding a productivity is by adding the productivity directly i
 - `endproduct`: name of the resulting product you want to calculate ratios for
 - `endnumber`: number of buildings you want to use for endproduct
 
+Important: you have to enter the productivities in `times base value` rather than `percentage`. 
+The result will be given in `percentage`.
+
 ## Todo
-At the moment all products are listed with german names and not all items are listed. 
-Arctic products are missing completely and new world is mainly added for produciton for old world.
+- only german names for products available
+- not all items are listed. 
+- Arctic products are missing completely 
+- new world is mainly added for produciton for old world
+- Ships building is missing completly
