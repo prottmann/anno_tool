@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-
-import numpy as np
 import os
 
 
@@ -9,7 +7,7 @@ class AnnoDataset(object):
     def __init__(self,
                  buildings_path="data/buildings.txt",
                  chain_path="data/product_chains.txt",
-                 productivity_path="custom_productivity.txt"):
+                 productivity_path="data/custom_productivity.txt"):
         self.buildings_path = buildings_path
         self.chain_path = chain_path
         self.productivity_path = productivity_path
