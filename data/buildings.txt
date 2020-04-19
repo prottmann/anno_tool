@@ -1,5 +1,6 @@
 product,time
 alpakawolle,0.50
+baerenfell,1.50
 bananen,0.50
 baumwolle,1.00
 baumwollstoff,0.50
@@ -17,6 +18,9 @@ fenster,1.00
 fisch,0.50
 fischoel,0.50
 fleischkonserven,1.50
+gaensefedern,2.00
+gas,4.50
+gaskraftwerk,0.75
 gebackene_bananen,0.50
 getreide,1.00
 glas,0.50
@@ -29,6 +33,8 @@ hochraeder,0.50
 holz,0.25
 holzfurnier,1.00
 hopfen,1.50
+hundeschlitten,1.00
+huskys,2.00
 kaffee,0.50
 kaffeebohnen,1.00
 kakao,0.50
@@ -37,6 +43,7 @@ kartoffeln,0.50
 kautschuk,1.00
 kleidung,0.50
 kohle,0.25
+kraftwerk,0.08
 kupfer,0.50
 lehm,0.50
 malz,0.50
@@ -44,15 +51,22 @@ mehl,0.50
 messing,1.00
 naehmaschinen,0.50
 oel,0.25
+oellampen,1.00
 paprika,2.00
+parkas,1.50
 pelzmaentel,0.50
+pemmikan,1.00
 perlen,1.50
 phonographen,2.00
 ponchos,0.50
 quarz,0.50
+rentierfleisch,1.00
 rindfleisch,2.00
+robbenfelle,0.50
 rum,0.50
 salpeter,2.00
+schlafsaecke,1.00
+schlitten,1.00
 schmuck,0.50
 schnaps,0.50
 schokolade,0.50
@@ -68,6 +82,7 @@ tabak,2.00
 talg,1.00
 taschenuhren,1.50
 trauben,2.00
+waloel,1.00
 wolle,0.50
 wurst,1.00
 zement,0.50

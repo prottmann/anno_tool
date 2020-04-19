@@ -1,4 +1,5 @@
 name,productivity
+bananen,1.00
 baumwolle,1.00
 bier,1.00
 bretter,1.00

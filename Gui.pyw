@@ -23,16 +23,14 @@ class AnnoCalculator(tk.Tk):
         self.notebook.add(self.selection_tab, text="Buildings")
         self.notebook.add(self.result_tab, text="Results")
         self.notebook.pack(fill=tk.BOTH, expand=1)
-
+        padding = 15
         self.create_dropdown()
         #self.create_radiobuttons(20)
-        tk.Label(self.selection_tab, text="Number of buildings").grid(row=1,
-                                                                      column=2)
-        tk.Label(self.selection_tab, text="Productivity").grid(row=2, column=3)
-        self.number_buildings = tk.Spinbox(self.selection_tab, from_=1, to=100)
-        self.number_buildings.grid(row=2, column=2)
+        tk.Label(self.selection_tab, text="Number of buildings").grid(row=2,
+                                                                      column=2,
+                                                                      padx=padding)
+        tk.Label(self.selection_tab, text="Productivity").grid(row=2, column=3, padx=padding)
 
-        padding = 10
         tk.Label(self.result_tab, text="Product").grid(row=1,
                                                        column=1,
                                                        padx=padding)
