@@ -13,6 +13,19 @@ Additional way of adding a productivity is by adding the productivity directly i
 Important: you have to enter the productivities in `times base value` rather than `percentage`. 
 The result will be given in `percentage`.
 
+### Windows
+Unzip the windows release and execute the `.exe` file
+
+[`anno_calculator_win.zip`][anno_win]
+[anno_win]:https://github.com/prottmann/anno_tool/releases/download/v1.0/anno_calculator_win.zip
+
+### Linux
+Download the source code of the release or of the repository and run the code with python directly.
+
+`python3 Gui.pyw`
+
+`./Gui.pyw`
+
 ## Todo
 - [ ] only german names for products available
 - [ ] not all items are listed. 
