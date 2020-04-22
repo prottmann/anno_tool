@@ -16,6 +16,6 @@ The result will be given in `percentage`.
 ## Todo
 - [ ] only german names for products available
 - [ ] not all items are listed. 
-- [ ] Arctic products are missing completely 
+- [x] ~~Arctic products are missing completely~~
 - [ ] new world is mainly added for produciton for old world
 - [ ] Ships building is missing completly
