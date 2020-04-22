@@ -17,6 +17,7 @@ The result will be given in `percentage`.
 Unzip the windows release and execute the `.exe` file
 
 [`anno_calculator_win.zip`][anno_win]
+
 [anno_win]:https://github.com/prottmann/anno_tool/releases/download/v1.0/anno_calculator_win.zip
 
 ### Linux
